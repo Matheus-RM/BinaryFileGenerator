@@ -1,0 +1,1271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"read",
+				"readText"
+			],
+			[
+				"se",
+				"setf"
+			],
+			[
+				"set",
+				"setf"
+			],
+			[
+				"check",
+				"checkArray"
+			],
+			[
+				"array",
+				"arrayType"
+			],
+			[
+				"checka",
+				"checkArrayTypes"
+			],
+			[
+				"writeText",
+				"writeTextArray"
+			],
+			[
+				"write",
+				"writeText"
+			],
+			[
+				"m",
+				"mInput"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"new",
+				"newScene"
+			],
+			[
+				"mInput",
+				"mInputFile"
+			],
+			[
+				"flags",
+				"flagsCount"
+			],
+			[
+				"DEFAULT",
+				"DEAFAULT_PROGRAM_PATH"
+			],
+			[
+				"swap",
+				"swapWindow"
+			],
+			[
+				"SDL_WINDOWPOS",
+				"SDL_WINDOWPOS_CENTERED_DISPLAY"
+			],
+			[
+				"mConfigura",
+				"mConfigurationSeted"
+			],
+			[
+				"mWind",
+				"mWindowConfig"
+			],
+			[
+				"Window",
+				"WindowController"
+			],
+			[
+				"Script",
+				"ScriptController"
+			],
+			[
+				"Progra",
+				"ProgramLoader"
+			],
+			[
+				"SDL_in",
+				"SDL_stdinc.h>"
+			],
+			[
+				"pus",
+				"push_back"
+			],
+			[
+				"Entity",
+				"EntityScript"
+			],
+			[
+				"mFram",
+				"mFrameStartTime"
+			],
+			[
+				"unique",
+				"unique_ptr"
+			],
+			[
+				"Camera",
+				"CameraUpdate"
+			],
+			[
+				"ca",
+				"callFrameScripts"
+			],
+			[
+				"Scrip",
+				"ScriptController.hpp\""
+			],
+			[
+				"GL_DEPTH",
+				"GL_DEPTH_BUFFER"
+			],
+			[
+				"matrix_",
+				"matrix_transform.hpp>"
+			],
+			[
+				"Shader",
+				"ShaderController"
+			],
+			[
+				"matr",
+				"matrix_transform.hpp>"
+			],
+			[
+				"mat4",
+				"mat4x4.hpp>"
+			],
+			[
+				"calcu",
+				"calculateViewMatrix"
+			],
+			[
+				"get",
+				"getViewProjectionMatrix"
+			],
+			[
+				"Cam",
+				"CameraController"
+			],
+			[
+				"mat4x",
+				"mat4x4.hpp>"
+			],
+			[
+				"angles",
+				"anglesinDegrees"
+			],
+			[
+				"angle",
+				"angleAxis"
+			],
+			[
+				"vec",
+				"vec3.hpp>"
+			],
+			[
+				"mat",
+				"mat4x4.hpp>"
+			],
+			[
+				"StyleColors",
+				"StyleColorsLight"
+			],
+			[
+				"Model",
+				"ModelTranslator"
+			],
+			[
+				"wr",
+				"writeValue"
+			],
+			[
+				"elem",
+				"elementsPerVertex"
+			],
+			[
+				"em",
+				"emplace_back"
+			],
+			[
+				"readI",
+				"readIntoVector"
+			],
+			[
+				"meshes",
+				"meshesCount"
+			],
+			[
+				"minput",
+				"mInputFile"
+			],
+			[
+				"ele",
+				"elementsPerVertex"
+			],
+			[
+				"empl",
+				"emplace_back"
+			],
+			[
+				"string",
+				"stringstream"
+			],
+			[
+				"indice",
+				"indicesSize"
+			],
+			[
+				"data",
+				"dataSize"
+			],
+			[
+				"element",
+				"elementsPerVertex"
+			],
+			[
+				"if",
+				"ifstream"
+			],
+			[
+				"configure",
+				"configureMeshVao"
+			],
+			[
+				"setMe",
+				"setMeshVbo"
+			],
+			[
+				"setM",
+				"setMeshVao"
+			],
+			[
+				"indices",
+				"indicesSize"
+			],
+			[
+				"bak",
+				"back_inserter"
+			],
+			[
+				"createV",
+				"createVBO"
+			],
+			[
+				"sto",
+				"storeMode"
+			],
+			[
+				"getTy",
+				"getTypeName"
+			],
+			[
+				"create",
+				"createEntityWrapper"
+			],
+			[
+				"re",
+				"readShader"
+			],
+			[
+				"ad",
+				"addComponent"
+			],
+			[
+				"regis",
+				"registerSystem"
+			],
+			[
+				"end",
+				"onEndOfComponentRegistration"
+			],
+			[
+				"regi",
+				"registerComponent"
+			],
+			[
+				"mNew",
+				"mNewProgram"
+			],
+			[
+				"compile",
+				"compileAndLink"
+			],
+			[
+				"glEnableVerte",
+				"glEnableVertexArrayAttrib"
+			],
+			[
+				"pu",
+				"push_back"
+			],
+			[
+				"storeMode",
+				"storeModeText"
+			],
+			[
+				"GL_STATIC_",
+				"GL_STATIC_DRAW"
+			],
+			[
+				"J",
+				"JsonValue.hpp\""
+			],
+			[
+				"emplace",
+				"emplace_back"
+			],
+			[
+				"getArr",
+				"getArray"
+			],
+			[
+				"creat",
+				"createVAO"
+			],
+			[
+				"gl",
+				"glew.h>"
+			],
+			[
+				"mHas",
+				"mHasTexture"
+			],
+			[
+				"u",
+				"uvec3"
+			],
+			[
+				"psuH",
+				"push_back"
+			],
+			[
+				"positio",
+				"positionIndex"
+			],
+			[
+				"p",
+				"push_back"
+			],
+			[
+				"procce",
+				"processTriangleFace"
+			],
+			[
+				"proc",
+				"processQuadFace"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"ve",
+				"vec3.hpp>"
+			],
+			[
+				"fps",
+				"fpsSums"
+			],
+			[
+				"imgu",
+				"imgui.h>"
+			],
+			[
+				"OPENGL",
+				"OPENGL_INCLUDE_DIR"
+			],
+			[
+				"SDL2",
+				"SDL2_LIBRARIES"
+			],
+			[
+				"target",
+				"target_link_libraries"
+			],
+			[
+				"ImGui_ImplOpen",
+				"ImGui_ImplOpenGL3_NewFrame"
+			],
+			[
+				"SDL_GetWin",
+				"SDL_GetWindowID"
+			],
+			[
+				"SDL_WINDOWEN",
+				"SDL_WINDOWEVENT_CLOSE"
+			],
+			[
+				"SDL_WIN",
+				"SDL_WINDOWEVENT"
+			],
+			[
+				"ImGui_ImplOp",
+				"ImGui_ImplOpenGL3_Shutdown"
+			],
+			[
+				"ImGui_Impl",
+				"ImGui_ImplOpenGL3_Init"
+			],
+			[
+				"ImGui_ImplSDL",
+				"ImGui_ImplSDL2_InitForOpenGL"
+			],
+			[
+				"StyleC",
+				"StyleColorsDark"
+			],
+			[
+				"target_c",
+				"target_compile_options"
+			],
+			[
+				"SDL_",
+				"SDL2_INCLUDE_DIRS"
+			],
+			[
+				"init",
+				"initGlew"
+			],
+			[
+				"glew",
+				"glewInit"
+			],
+			[
+				"glCl",
+				"glClearColor"
+			],
+			[
+				"ini",
+				"initECS"
+			],
+			[
+				"m_",
+				"m_entityCoordinator"
+			],
+			[
+				"S",
+				"SECS/"
+			],
+			[
+				"inde",
+				"indexOfLastEntity"
+			],
+			[
+				"m_entit",
+				"m_entityToIndexMap"
+			],
+			[
+				"m_en",
+				"m_entityToIndexMap"
+			],
+			[
+				"removed",
+				"removedEntityIndex"
+			],
+			[
+				"tnS",
+				"tnSys"
+			],
+			[
+				"Text",
+				"TextNumSys"
+			],
+			[
+				"onEnt",
+				"onEntityComponentRemoved"
+			],
+			[
+				"onEnti",
+				"onEntityComponentAdded"
+			],
+			[
+				"onEn",
+				"onEntityComponentRemoved"
+			],
+			[
+				"entity",
+				"entitySignature"
+			],
+			[
+				"system",
+				"systemId"
+			],
+			[
+				"onE",
+				"onEntityComponentAdded"
+			],
+			[
+				"Sys",
+				"SystemManager"
+			],
+			[
+				"System",
+				"SystemManager"
+			],
+			[
+				"Componen",
+				"ComponentArray"
+			],
+			[
+				"Compone",
+				"ComponentArray"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "output/main.bin",
+			"settings":
+			{
+				"buffer_size": 785,
+				"encoding": "Hexadecimal",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAACMAgAAMDEwMCAwMDAwIDA3MDAgMDAwMCA2NDY1IDY2NjEgNzU2YyA3NDAyCjAwMDAgMDAxNiAwMDAwIDAwMmUgMmUyZiA3MzY4IDYxNjQgNjU3Mgo3MzJmIDc2NjUgNzI3NCA2NTc4IDJlNjcgNmM3MyA2YzMxIDhiMDAKMDAxOCAwMDAwIDAwMmUgMmUyZiA3MzY4IDYxNjQgNjU3MiA3MzJmCjY2NzIgNjE2NyA2ZDY1IDZlNzQgMmU2NyA2YzczIDZjMzAgOGIwMAowMDAxIDAwMDAgMDAxNSAwMDAwIDAwMmUgMmUyZiA2MTczIDczNjUKNzQ3MyAyZjQzIDY4NjkgNjM2YiA2NTZlIDJlNzAgNmU2NyAwMTAwCjAwMDAgMTQwMCAwMDAwIDJlMmUgMmY2MSA3MzczIDY1NzQgNzMyZgo3MzcxIDc1NjEgNzI2NSAyZTYyIDY5NmUgMDEwMCAwMDAwIDA2MDAKMDAwMCA3MzcxIDc1NjEgNzI2NSAwNDAwIDAwMDAgMDUwMCAwMDAwCjZkNmYgNjQ2NSA2YzA2IDAwMDAgMDA3MyA2ODYxIDY0NjUgNzIwNwowMDAwIDAwNzQgNjU3OCA3NDc1IDcyNjUgMDkwMCAwMDAwIDc0NzIKNjE2ZSA3MzY2IDZmNzIgNmQwMSAwMDAwIDAwMGMgMDAwMCAwMDUzCjcxNzUgNjE3MiA2NTUzIDYzNzIgNjk3MCA3NDA2IDAwMDAgMDA3Mwo3MTc1IDYxNzIgNjUwMSAwMDAwIDAwMGMgMDAwMCAwMDQzIDYxNmQKNjU3MiA2MTU1IDcwNjQgNjE3NCA2NWM4IDk4MWIgM2ZjZSBhYTJmCjNmZTMgYzc0OCAzZgAAAAAAAAAAEQMAAAAAAAAAAAAAAAAAAAAAAAARAwAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACMAgAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "output/menu.bin",
+			"settings":
+			{
+				"buffer_size": 282,
+				"encoding": "Hexadecimal",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "input/main.txt",
+			"settings":
+			{
+				"buffer_size": 434,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMcAAAAAAAAAxwAAAAAAAAABAAAAMQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADIAAAAAAAAAMgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAMcAAAAAAAAAyAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADHAAAAAAAAAMcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "\n\ntex"
+					},
+					"BQAAAAQBAAAAAAAABQEAAAAAAAAAAAAABQEAAAAAAAAGAQAAAAAAAAAAAAAGAQAAAAAAAAcBAAAAAAAAAAAAAAcBAAAAAAAACAEAAAAAAAAAAAAACAEAAAAAAAAJAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAEAQAAAAAAAAQBAAAAAAAAAAAAAACASkA"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "t"
+					},
+					"AQAAAAkBAAAAAAAACgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAJAQAAAAAAAAkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAoBAAAAAAAACwEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAKAQAAAAAAAAoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAAsBAAAAAAAADQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAALAQAAAAAAAAsBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "loadImg"
+					},
+					"BwAAAAwBAAAAAAAADQEAAAAAAAAAAAAADQEAAAAAAAAOAQAAAAAAAAAAAAAOAQAAAAAAAA8BAAAAAAAAAAAAAA8BAAAAAAAAEAEAAAAAAAAAAAAAEAEAAAAAAAARAQAAAAAAAAAAAAARAQAAAAAAABIBAAAAAAAAAAAAABIBAAAAAAAAEwEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAMAQAAAAAAAAwBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "\narray"
+					},
+					"BgAAABQBAAAAAAAAFQEAAAAAAAAAAAAAFQEAAAAAAAAWAQAAAAAAAAAAAAAWAQAAAAAAABcBAAAAAAAAAAAAABcBAAAAAAAAGAEAAAAAAAAAAAAAGAEAAAAAAAAZAQAAAAAAAAAAAAAZAQAAAAAAABoBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAUAQAAAAAAABQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": " text"
+					},
+					"BQAAABoBAAAAAAAAGwEAAAAAAAAAAAAAGwEAAAAAAAAcAQAAAAAAAAAAAAAcAQAAAAAAAB0BAAAAAAAAAAAAAB0BAAAAAAAAHgEAAAAAAAAAAAAAHgEAAAAAAAAfAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAaAQAAAAAAABoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "\nend"
+					},
+					"BAAAAB8BAAAAAAAAIAEAAAAAAAAAAAAAIAEAAAAAAAAhAQAAAAAAAAAAAAAhAQAAAAAAACIBAAAAAAAAAAAAACIBAAAAAAAAIwEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAfAQAAAAAAAB8BAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAACABAAAAAAAAIQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAgAQAAAAAAACABAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "widget"
+					},
+					"BgAAACABAAAAAAAAIQEAAAAAAAAAAAAAIQEAAAAAAAAiAQAAAAAAAAAAAAAiAQAAAAAAACMBAAAAAAAAAAAAACMBAAAAAAAAJAEAAAAAAAAAAAAAJAEAAAAAAAAlAQAAAAAAAAAAAAAlAQAAAAAAACYBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAgAQAAAAAAACABAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": "\n../"
+					},
+					"BAAAAJcAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACZAAAAAAAAAAAAAACZAAAAAAAAAJoAAAAAAAAAAAAAAJoAAAAAAAAAmwAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACXAAAAAAAAAJcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "assets"
+					},
+					"BgAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAACdAAAAAAAAAJ4AAAAAAAAAAAAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAAnwAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAAKEAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACbAAAAAAAAAJsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "/load"
+					},
+					"BQAAAKEAAAAAAAAAogAAAAAAAAAAAAAAogAAAAAAAACjAAAAAAAAAAAAAACjAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAApQAAAAAAAAAAAAAApQAAAAAAAACmAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAChAAAAAAAAAKEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "Screen.p"
+					},
+					"CAAAAKYAAAAAAAAApwAAAAAAAAAAAAAApwAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKkAAAAAAAAAAAAAAKkAAAAAAAAAqgAAAAAAAAAAAAAAqgAAAAAAAACrAAAAAAAAAAAAAACrAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAArQAAAAAAAAAAAAAArQAAAAAAAACuAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACmAAAAAAAAAKYAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "ng"
+					},
+					"AgAAAK4AAAAAAAAArwAAAAAAAAAAAAAArwAAAAAAAACwAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACuAAAAAAAAAK4AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					85,
+					1,
+					"paste",
+					null,
+					"AgAAADkBAAAAAAAAPwEAAAAAAAAAAAAAPwEAAAAAAAA/AQAAAAAAAAYAAAB3aWRnZXQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA5AQAAAAAAAD8BAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "input/square.txt",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"terminu",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"termi",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"ter",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"te",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"terminus ope",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"plugin",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Plug",
+				"Plugin Development: Profile Events"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 290.0,
+		"history":
+		[
+			"sublime.version()",
+			"view.run_command(\"example\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Sprt204/Desktop/BinaryTranslator",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/output",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/src",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/src"
+	],
+	"file_history":
+	[
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input/main.txt",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/src/main.cpp",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/mainScene.txt",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input/menuScene.txt",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input/main.bin",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input/square.bin",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input/program.bin",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input/menu.bin",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/programInput.txt",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input/squareModel.txt",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input/scene2.txt",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/build/program.bin",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/build/main.bin",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/src/BinaryTranslator.cpp",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/include/BinaryTranslator.hpp",
+		"/C/Users/Sprt204/Desktop/Projects/ModelBin/modelGenerator.cpp",
+		"/C/Users/Sprt204/Desktop/Projects/ModelBin/square.bin",
+		"/C/Users/Sprt204/Desktop/Projects/ModelBin/input.txt",
+		"/C/Users/Sprt204/Desktop/Projects/SceneBin/input.txt",
+		"/C/Users/Sprt204/Desktop/Projects/programBin/programBin.cpp",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/build/out.bin",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/input.txt",
+		"/C/Users/Sprt204/Desktop/Projects/SceneBin/programBin.cpp",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/CMakeLists.txt",
+		"/C/Users/Sprt204/Desktop/Projects/programBin/input.txt",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/CMakeLists.txt",
+		"/C/Users/Sprt204/Desktop/Entity/CMakeLists.txt",
+		"/C/Users/Sprt204/Desktop/BinaryTranslator/binTranslator.sublime-project",
+		"/C/Users/Sprt204/Desktop/Entity/myproject.sublime-project",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/projetoCarlos.sublime-project",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Controllers/WindowController.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Controllers/WindowController.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Base/Window.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Controllers/ImGuiController.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Base/Program.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/BinaryIO.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Base/Scene.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/ProgramLoader.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/BinaryIO.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Game.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Controllers/ScriptController.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Timer.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Systems/Renderer.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Systems/Renderer.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Base/Script.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Transform/Rotation.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Game.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Controllers/CameraController.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Camera.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Script.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Program.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Controllers/CameraController.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Controllers/ScriptController.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Controllers/ShaderController.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Controllers/ImGuiController.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Controllers/InputController.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/CameraController.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Rotation.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Rotation.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/ScriptController.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Components/Transform.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/CameraController.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/shaders/vertex.glsl",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Components/Mesh.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Components/Model.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/ScriptController.cpp",
+		"/C/Development/cpp/SprtECS/include/SECS/Entity.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Timer.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/ImGuiController.cpp",
+		"/C/Users/Sprt204/Desktop/GameSDL&GL/GLTest/main.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/ShaderController.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/ShaderController.cpp",
+		"/C/Users/Sprt204/Desktop/Projects/Just-My-Game-v2/src/Graphics.cpp",
+		"/C/Users/Sprt204/Desktop/Projects/Just-My-Game-v2/src/Camera_Manager.cpp",
+		"/C/Users/Sprt204/Desktop/GameSDL&GL/GLTest/include/Camera.h",
+		"/C/Users/Sprt204/Desktop/GameSDL&GL/GLProject/main.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src-legacy/Camera.cpp",
+		"/C/Users/Sprt204/Desktop/Projects/ModelBin/obj.bin",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/shaders/fragment.glsl",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/assets/square.bin",
+		"/C/Development/cpp/imgui-master/examples/example_sdl_opengl3/main.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/InputController.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/ShaderLoader.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/ShaderLoader.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/main.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Util.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/ObjReader.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/ModelLoader.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/ModelLoader.cpp",
+		"/C/Users/Sprt204/Desktop/Projects/ModelBin/input.txt.txt",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src-legacy/Model.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src-legacy/ModelManager.cpp",
+		"/C/Users/Sprt204/Desktop/GameSDL&GL/GLTest/Shaders/vertex.glsl",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src-legacy/Game.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src-legacy/MeshLoader.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/assets/square.json",
+		"/C/Development/cpp/OpenGl/glew-2.1.0/include/GL/glew.h",
+		"/C/Users/Sprt204/Desktop/Entity/src/main.cpp",
+		"/C/Development/cpp/SprtJson/include/SJS/JsonValue.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/build/compile_commands.json",
+		"/C/Users/Sprt204/AppData/Roaming/Sublime Text/Packages/GLSL Validator/README.md",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src-legacy/Shader.cpp",
+		"/C/Development/cpp/SprtECS/include/SECS/System.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Components/Shader.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include-legacy/Shader.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/MeshLoader.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/MeshLoader.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include-legacy/MeshLoader.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/ObjReader.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/MeshReader.hpp",
+		"/C/Development/cpp/SprtJson/include/SJS/JsonReader.hpp",
+		"/C/Development/cmake-config/SprtECS-config.cmake",
+		"/C/Development/cmake-config/SprtJson-config.cmake",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include/Mesh.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include-legacy/ModelManager.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include-legacy/Mesh.hpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/assets/example.obj",
+		"/C/Users/Sprt204/Desktop/Projects/objGenerator/Tim4.obj",
+		"/C/Development/cpp/SDL2-2.0.16/x86_64-w64-mingw32/lib/cmake/SDL2/sdl2-config.cmake",
+		"/C/Users/Sprt204/Desktop/Projects/objGenerator/Tim3.obj",
+		"/C/Development/cpp/imgui-master/imgui.h",
+		"/C/Development/cpp/imgui-master/docs/EXAMPLES.md",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src/Util.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/src-legacy/Util.cpp",
+		"/C/Users/Sprt204/Desktop/Projeto-Carlos/include-legacy/Util.hpp",
+		"/C/Users/Sprt204/Desktop/NewJsonReader/src/JsonReader.cpp",
+		"/C/Users/Sprt204/Desktop/NewJsonReader/include/JsonReader.hpp",
+		"/C/Users/Sprt204/Desktop/Rectangle.obj"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "output/main.bin",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								0
+							]
+						],
+						"settings":
+						{
+							"glslvalidator_configured": true,
+							"glslvalidator_enabled": 1,
+							"lsp_uri": "file:///C:/Users/Sprt204/Desktop/BinaryTranslator/output/main.bin",
+							"syntax": "Packages/Binary/Binary.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "output/menu.bin",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"glslvalidator_configured": true,
+							"glslvalidator_enabled": 1,
+							"lsp_uri": "file:///C:/Users/Sprt204/Desktop/BinaryTranslator/output/menu.bin",
+							"syntax": "Packages/Binary/Binary.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "input/main.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"glslvalidator_configured": true,
+							"glslvalidator_enabled": 1,
+							"lsp_uri": "file:///C:/Users/Sprt204/Desktop/BinaryTranslator/input/main.txt",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "input/square.txt",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								28
+							]
+						],
+						"settings":
+						{
+							"glslvalidator_configured": true,
+							"glslvalidator_enabled": 1,
+							"lsp_uri": "file:///C:/Users/Sprt204/Desktop/BinaryTranslator/input/square.txt",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 229.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 208.0
+	},
+	"output.Terminus 3":
+	{
+		"height": 228.0
+	},
+	"output.diagnostics":
+	{
+		"height": 151.0
+	},
+	"output.exec":
+	{
+		"height": 427.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 288.0
+	},
+	"pinned_build_system": "Packages/User/AutoCompBuild.sublime-build",
+	"project": "binTranslator.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

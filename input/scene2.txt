@@ -1,0 +1,16 @@
+uint 1
+text "default"
+uint 2
+text "../shaders/vertex.glsl"
+huint 0x8B31
+
+text "../shaders/fragment.glsl"
+huint 0x8B30
+
+array text
+end
+
+uint 0
+
+array text
+end

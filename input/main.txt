@@ -1,0 +1,35 @@
+uint 2
+text "default"
+uint 2
+text "assets/shaders/vertex.glsl"
+huint 0x8B31
+
+text "assets/shaders/fragment.glsl"
+huint 0x8B30
+
+text "terrainShader"
+uint 2
+text "assets/shaders/terrain-vertex.glsl"
+huint 0x8B31
+
+text "assets/shaders/terrain-fragment.glsl"
+huint 0x8B30
+
+array text
+end
+
+array text
+end
+
+uint 0
+
+uint 0
+
+array text
+CameraUpdate
+TerrainRenderer
+end
+
+float 0.6078
+float 0.6862
+float 0.7843
