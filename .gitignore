@@ -1,3 +1,7 @@
 # Remove the build and configuration folder
 build/
 .cache/
+input/
+output/
+binTranslator.sublime-project
+binTranslator.sublime-workspace
