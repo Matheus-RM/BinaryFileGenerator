@@ -1,4 +1,3 @@
 # Remove the build and configuration folder
 build/
 .cache/
-lib/

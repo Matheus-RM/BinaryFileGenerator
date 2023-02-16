@@ -1,6 +1,6 @@
-#include "BinaryTranslator.hpp"
+#include <iostream>
 
-#include <string>
+#include "BinaryTranslator.hpp"
 
 int main(int argc, char** argv)
 {
@@ -21,6 +21,10 @@ int main(int argc, char** argv)
 	catch(std::runtime_error& e)
 	{
 		std::cout << "Runtime error: " << e.what() << "\n";
+	}
+	catch(std::exception& e)
+	{
+		std::cout << "Unexpected error: " << e.what() << "\n";
 	}
 	
 	return 0;

@@ -26,8 +26,8 @@ uint 0
 uint 0
 
 array text
-CameraUpdate
-TerrainRenderer
+"CameraUpdate"
+"TerrainRenderer"
 end
 
 float 0.6078

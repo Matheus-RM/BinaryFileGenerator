@@ -1,14 +1,13 @@
 #include "BinaryTranslator.hpp"
+#include "Type.hpp"
 
-#include <functional>
 #include <stdexcept>
 #include <string>
-#include <algorithm>
 #include <binders.h>
 
 BinaryTranslator::BinaryTranslator()
 {
-
+	registerTypes();
 }
 
 BinaryTranslator::~BinaryTranslator()
@@ -16,14 +15,58 @@ BinaryTranslator::~BinaryTranslator()
 
 }
 
+void BinaryTranslator::registerTypes()
+{
+	registerDefaultTypes();
+}
+
+void BinaryTranslator::registerDefaultTypes()
+{
+	REGISTER_TYPE("text", std::string, getTextAsString, text);
+
+	REGISTER_TYPE("int", int, getTextAsNumeral, std::stoi(text));
+	REGISTER_TYPE("uint", unsigned int, getTextAsNumeral, std::stoul(text));
+	REGISTER_TYPE("float", float, getTextAsNumeral, std::stof(text));
+
+	REGISTER_TYPE("hint", int, getTextAsNumeral, std::stoi(text, nullptr, 16));
+	REGISTER_TYPE("huint", unsigned int, getTextAsNumeral, std::stoul(text, nullptr, 16));
+}
+
+std::string BinaryTranslator::getTextAsString(std::stringstream& input)
+{
+	std::string text;
+
+	char buffer;
+	input >> buffer; // get the first '"'
+
+	input >> std::noskipws;
+
+	while(input >> buffer && buffer != '\"')
+	{
+		text.push_back(buffer);
+	}
+
+	input >> std::skipws;
+
+	return text;
+}
+
+std::string BinaryTranslator::getTextAsNumeral(std::stringstream& input)
+{
+	std::string text;
+	input >> text;
+
+	return text;
+}
+
 
 void BinaryTranslator::translate(const char* inputPath, const char* outputPath)
 {
-	read(inputPath);
+	readInputData(inputPath);
 	write(outputPath);
 }
 
-void BinaryTranslator::read(const char* path)
+void BinaryTranslator::readInputData(const char* path)
 {
 	mFile.open(path, std::ios::in);
 	mInput << mFile.rdbuf();
@@ -34,178 +77,114 @@ void BinaryTranslator::write(const char* path)
 {
 	mFile.open(path, std::ios::out | std::ios::binary | std::ios::trunc);
 
+	writeTypesFromInput();
+
+	mFile.close();
+}
+
+void BinaryTranslator::writeTypesFromInput()
+{
 	std::string type;
 	while(mInput >> type)
 	{
-		if(checkTypes(type))
+		if(tryToWriteType(type))
 			continue;
 
-		else if(checkArray(type))
+		else if(tryToWriteArray(type))
 			continue;
 
 		else
 			throw std::runtime_error("Invalid use of '" + type + "' type.");
 	}
-
-	mFile.close();
 }
 
-bool BinaryTranslator::checkTypes(const std::string& type)
+bool BinaryTranslator::tryToWriteType(const std::string& typeName)
 {
-	if(type == "text")
-	{
-		std::cout << "writing text \n";
-		writeText();
-		
-		return true;
-	}
-	else if(type == "int")
-	{
-		std::cout << "writing int \n";
-		writeValue<int>();
+	const auto typeIt = mTypes.find(typeName);
+	
+	if(!isValidType(typeIt))
+		return false;
 
-		return true;
-	}
-	else if(type == "uint")
-	{
-		std::cout << "writing uint \n";
-		writeValue<unsigned int>();
-		
-		return true;
-	}
-	else if(type == "hint")
-	{
-		std::cout << "writing hex int \n";
+	BT_MESSAGE("Writing type ", typeName, "\n");
 
-		int value;
-		mInput >> std::hex >> value;
+	auto& type = typeIt->second;
+	type->write(mFile, mInput);
 
-		writeValue<int>(value);
+	BT_PRINT_LINE();
 
-		return true;
-	}
-	else if(type == "huint")
-	{
-		std::cout << "writing hex uint \n";
-
-		unsigned int value;
-		mInput >> std::hex >> value;
-
-		writeValue<unsigned int>(value);
-		
-		return true;
-	}
-	else if(type == "float")
-	{
-		std::cout << "writing float \n";
-		writeValue<float>();
-		
-		return true;
-	}
-
-	return false;
+	return true;
 }
 
-bool BinaryTranslator::checkArray(const std::string& type)
+bool BinaryTranslator::tryToWriteArray(const std::string& type)
 {
-	if(type == "array")
-	{
-		std::string arrayType;
-		mInput >> arrayType;
+	if(type != "array")
+		return false;
 
-		checkArrayTypes(arrayType);
+	std::string arrayType;
+	mInput >> arrayType;
 
-		return true;
-	}
+	const auto&& status = tryToWriteArrayType(arrayType);
 
-	return false;
+	return status;
 }
 
-void BinaryTranslator::checkArrayTypes(const std::string& type)
+bool BinaryTranslator::tryToWriteArrayType(const std::string& typeName)
 {
-	std::cout << "writing array \n";
+	const auto typeIt = mTypes.find(typeName);
+	if(!isValidType(typeIt))
+		return false;
 
-	if(type == "text")
-	{
-		std::cout << "writing text array\n";
-		writeTextArray();
-	}
-	else if(type == "int")
-	{
-		std::cout << "writing int array\n";
-		writeArray(std::function<int(const std::string& text)>(
-					[&](const std::string& text){ return std::stoi(text); }));
-	}
-	else if(type == "uint")
-	{
-		std::cout << "writing uint array\n";
-		writeArray(std::function<unsigned int(const std::string& text)>(
-					[&](const std::string& text){ return std::stoi(text); }));
-	}
-	else if(type == "float")
-	{
-		std::cout << "writing float array\n";
-		writeArray(std::function<float(const std::string& text)>(
-					[&](const std::string& text){ return std::stof(text); }));
-	}
+
+	getArrayValues();
+
+	BT_MESSAGE("Writing array of type ", typeName, "\n");
+
+	writeArray(typeIt->second);
+
+	BT_PRINT_LINE();
+	BT_MESSAGE("-> array input = {\n", mArrayValues.str(), "\n}\n\n")
+
+	cleanArrayData();
+
+	return true;
 }
 
-
-void BinaryTranslator::writeTextArray()
+void BinaryTranslator::getArrayValues()
 {
-	std::vector<std::string> data;
-	std::string buffer;
+	std::string value;
 
-	while(mInput >> buffer)
+	while(mInput >> value && value != "end")
 	{
-		if(buffer == "end")
-			break;
-
-		std::cout << "text: " << buffer << "\n";
-		data.push_back(buffer);
-	}
-
-	writeValue<unsigned int>(data.size());
-
-	for(const auto& value : data)
-	{
-		writeText(value);
+		mArrayValues << value;
+		mArraySize++;
 	}
 }
 
-void BinaryTranslator::writeText()
+
+void BinaryTranslator::writeArray(std::shared_ptr<TypeI> type)
 {
-	auto&& text = readText();
+	mFile.write((char*)&mArraySize, sizeof(array_size_t));
 
-	std::cout << "text: " << text << "\n";
-
-	writeValue<unsigned int>(text.size());
-	mFile.write(text.c_str(), text.size() * sizeof(char));
-}
-
-void BinaryTranslator::writeText(const std::string& text)
-{
-	std::cout << "text: " << text << "\n";
-
-	writeValue<unsigned int>(text.size());
-	mFile.write(text.c_str(), text.size() * sizeof(char));
-}
-
-std::string BinaryTranslator::readText()
-{
-	std::string text;
-	char buffer;
-	mInput >> buffer;
-	mInput >> std::noskipws;
-	while(mInput >> buffer)
+	for(array_size_t i = 0; i < mArraySize; i++)
 	{
-		if(buffer == '\"')
-			break;
-
-		text.push_back(buffer);
+		type->write(mFile, mArrayValues);
 	}
-	mInput >> std::skipws;
-
-	return text;
 }
+
+void BinaryTranslator::cleanArrayData()
+{
+	mArraySize = 0;
+	mArrayValues.str("");
+	mArrayValues.clear();
+}
+
+
+bool BinaryTranslator::isValidType(const BinaryTranslator::TypesMap::iterator it)
+{
+	if(it == mTypes.end())
+		return false;
+
+	return true;
+}
+
 
